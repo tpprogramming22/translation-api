@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 from deep_translator import GoogleTranslator
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/translate', methods=['POST'])
 def translate():
