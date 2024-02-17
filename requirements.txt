@@ -1,3 +1,5 @@
 Flask
 deep-translator
 gunicorn
+Flask-CORS
+
